@@ -1,12 +1,42 @@
-.App {
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+}
+.nav-ul li a{
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+}
+.nav-ul{
+  padding: 5px;
+  margin: 0px;
+  background-color: skyblue;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
   text-align: center;
+  width: 100%;
+  background-color: skyblue;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.register{
+  margin-left: 30%;
+  /* text-align: center; */
 }
-
+.inputBox{
+  display: block;
+  margin: 25px;
+  padding: 8px;
+  width:300px;
+  border: 1px solid black;
+}
+.appButton{
+  margin: 25px;
+  padding: 8px;
+  width:320px;
+  border: 1px solid;
+  background-color: skyblue;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
